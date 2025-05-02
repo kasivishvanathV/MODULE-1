@@ -11,6 +11,7 @@ Print "Welcome to Technical Training" with a newline.
 Print "at Saveetha Engineering College".
 End the program.
 PROGRAM:
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -18,6 +19,7 @@ int main()
     cout<<"Welcome to Technical Training\nat Saveetha Engineering College";
     return 0;
 }
+```
 OUTPUT:
 ![1](https://github.com/user-attachments/assets/53624077-c454-4c71-90f5-3f15cd3caf22)
 
@@ -36,6 +38,7 @@ Define a method inside the class to calculate volume using the formula πr²h.
 In main(), create an object of the class and call the input and volume methods.
 Display the volume and end the program.
 PROGRAM:
+```
 #include <iostream>
 using namespace std;
 class cyclinder
@@ -53,6 +56,7 @@ int main()
     cyclinder c;
     c.dis();
 }
+```
 OUTPUT:
 ![2](https://github.com/user-attachments/assets/638b7c53-321f-49bb-9a36-1adefe04d9cb)
 
@@ -70,6 +74,7 @@ Define a class Cont with a default constructor that prints "C++ constructors".
 In the main function, create an object c of class Cont, which calls the default constructor and displays the message.
 End the program.
 PROGRAM:
+```
 #include<iostream>
 using namespace std;
 class con
@@ -85,6 +90,7 @@ int main()
     con g;
     return 0;
 }
+```
 OUTPUT:
 ![3](https://github.com/user-attachments/assets/1c89a2f4-7e82-4060-a17b-d66c584d4d65)
 
@@ -103,6 +109,7 @@ Use a friend function to calculate the AP sum using the formula.
 In main(), create an object and call the input and friend function.
 Display the sum and end the program.
 PROGRAM:
+```
 #include<iostream>
 using namespace std;
 class zenko{
@@ -122,6 +129,7 @@ int main(){
     s.data();
     cout<<"the sum is "<<z(s);
 }
+```
 OUTPUT:
 ![4](https://github.com/user-attachments/assets/558bf45d-8f16-4d8a-9bc4-30eeb357cf1a)
 
