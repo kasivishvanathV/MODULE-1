@@ -1,16 +1,16 @@
 # MODULE-1
 1A OVERVIEW & STRUCTURE
-PROGRAM STATEMENT:
+### PROGRAM STATEMENT:
 Write a C++ program to display "Welcome to Technical Training" in first line and "at Saveetha Engineering College" in next line in the output device?
 
-ALGORITHM:
+### ALGORITHM:
 Start the program.
 Include necessary header files for input/output operations.
 Define the main function.
 Print "Welcome to Technical Training" with a newline.
 Print "at Saveetha Engineering College".
 End the program.
-PROGRAM:
+### PROGRAM:
 ```
 #include <iostream>
 using namespace std;
@@ -20,24 +20,26 @@ int main()
     return 0;
 }
 ```
-OUTPUT:
+### OUTPUT:
 ![1](https://github.com/user-attachments/assets/53624077-c454-4c71-90f5-3f15cd3caf22)
 
 
-RESULT:
+### RESULT:
 Thus, the C++ program to display "Welcome to Technical Training" in first line and "at Saveetha Engineering College" in next line into the output device is implemented successfully.
 
 1B CLASS SCOPE AND ACCESSING CLASS MEMBERS & REFERENCE VARIABLES
-PROGRAM STATEMENT:
+
+### PROGRAM STATEMENT:
 Write a C++ program to Calculate the volume of a cylinder using class methods(declare members as private & methods define inside the class)
 
-ALGORITHM:
+### ALGORITHM:
 Start the program and define a class Cylinder with private radius and height.
 Create a method to take input for radius and height from the user.
 Define a method inside the class to calculate volume using the formula πr²h.
 In main(), create an object of the class and call the input and volume methods.
 Display the volume and end the program.
-PROGRAM:
+
+### PROGRAM:
 ```
 #include <iostream>
 using namespace std;
@@ -57,23 +59,23 @@ int main()
     c.dis();
 }
 ```
-OUTPUT:
+### OUTPUT:
 ![2](https://github.com/user-attachments/assets/638b7c53-321f-49bb-9a36-1adefe04d9cb)
 
 
-RESULT:
+### RESULT:
 Thus,the C++ program to Calculate the volume of a cylinder using class methods(declare members as private & methods define inside the class) has been successfully created.
 
 1C C++ CONSTRUCTORS AND DESTRUCTORS
-PROGRAM STATEMENT
+### PROGRAM STATEMENT
 Write a C++ program to display "C++ constructors" using default constructors.
 
-ALGORITHM:
+### ALGORITHM:
 Start the program.
 Define a class Cont with a default constructor that prints "C++ constructors".
 In the main function, create an object c of class Cont, which calls the default constructor and displays the message.
 End the program.
-PROGRAM:
+### PROGRAM:
 ```
 #include<iostream>
 using namespace std;
@@ -91,24 +93,24 @@ int main()
     return 0;
 }
 ```
-OUTPUT:
+### OUTPUT:
 ![3](https://github.com/user-attachments/assets/1c89a2f4-7e82-4060-a17b-d66c584d4d65)
 
 
-RESULT:
+### RESULT:
 Thus, the C++ program to display "C++ constructors" using a default constructor is created successfully.
 
 1D C++ MEMBER FUNCTION
-PROGRAM STATEMENT:
+### PROGRAM STATEMENT:
 Write a C++ program to calculate the sum of AP series using friend function.
 
-ALGORITHM:
+### ALGORITHM:
 Start and define a class AP with private members a, d, n.
 Create a method to input a, d, and n.
 Use a friend function to calculate the AP sum using the formula.
 In main(), create an object and call the input and friend function.
 Display the sum and end the program.
-PROGRAM:
+### PROGRAM:
 ```
 #include<iostream>
 using namespace std;
@@ -130,8 +132,8 @@ int main(){
     cout<<"the sum is "<<z(s);
 }
 ```
-OUTPUT:
+### OUTPUT:
 ![4](https://github.com/user-attachments/assets/558bf45d-8f16-4d8a-9bc4-30eeb357cf1a)
 
-RESULT:
+### RESULT:
 Thus,the C++ program to calculate the sum of AP series using friend function has been created successfully.
